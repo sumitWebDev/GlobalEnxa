@@ -1,0 +1,58 @@
+
+@import url("reset.css");
+.navbar-expand-lg .navbar-collapse{
+    justify-content : flex-end
+}
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.about-desc{
+    flex-basis: 50%
+}
+
+.about-desc h1{
+    text-align: center;
+}
+
+.about-img{
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.about-img img{
+    width: 500px;
+}
+
+.whatWeDo h2{
+    text-align: center;
+}
+
+.whatWeDo-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.whatWeDo-cards{
+    flex-basis: 50%;
+    padding: 10px;
+}
+
+.whatWeDo-cards img{
+    width: 50px;
+    height:50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.whatWeExport-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.whatWeExport-cards-container .card {
+    flex-basis: 30%;
+    margin: 10px;
+}
