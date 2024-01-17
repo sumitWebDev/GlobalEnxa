@@ -60,6 +60,18 @@ h1 {
     margin-right: 0;
     font-weight: bold;
   }
+  p{
+    line-height: 25.6px;
+  }
+
+  a{
+    color: #000;
+  }
+
+  a:hover{
+    color: #000;
+  }
+
 .container{
     padding: 0 60px;
 }
