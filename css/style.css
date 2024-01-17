@@ -1,12 +1,42 @@
 
 @import url("reset.css");
+
+.orange{
+    color:#F26221;
+}
+
+.blue{
+    background-color: #133C65;
+}
+
+.white{
+    color: #fff;
+}
+
+.light-grey{
+    color: #999999;
+}
+
+.text-color{
+    color: #363636;
+}
+
 .navbar-expand-lg .navbar-collapse{
     justify-content : flex-end
 }
 
-#carouselExampleIndicators{
-    margin-top: 60px;
-}
+
+.carousel-item {
+    height: 680px;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      max-height: 100%;
+      object-fit: cover;
+  }
 
 .about{
     display: flex;
@@ -33,12 +63,29 @@
     width: 100%;
 }
 
-.whatWeDo{
+.whatWeExport{
     margin-top: 60px;
+    background-image: url('../assets/world-map.png');
+    background-size: cover;
+    background-color: #133C65;
+    padding-bottom: 60px;
 }
 
-.whatWeDo h2{
+.whatWeExport .head{
     text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.whatWeDo{
+    padding-bottom: 60px;
+}
+
+.whatWeDo .head{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .whatWeDo-cards-container{
@@ -55,10 +102,6 @@
     height:50px;
     border-radius: 30px;
     margin-right: 20px;
-}
-
-.whatWeExport{
-    margin-top: 60px;
 }
 
 .whatWeExport-cards-container{
