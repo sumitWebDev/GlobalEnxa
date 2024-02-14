@@ -69,6 +69,10 @@
 
 }
 
+.whatWeExport .card-img-top{
+    height: 202px;
+}
+
 .whatWeDo{
     padding-bottom: 60px;
 }
@@ -103,6 +107,12 @@
 .whatWeExport-cards-container .card {
     flex-basis: 30%;
     margin: 10px;
+}
+
+.products .head{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 footer svg{
