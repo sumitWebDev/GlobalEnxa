@@ -9,8 +9,8 @@
     background-color: #072638;
 }
 
-.white{
-    color: #fff;
+.light-yellow{
+    color: #e1d1b8;
 }
 
 .light-grey{
@@ -21,12 +21,20 @@
     color: #363636;
 }
 
+.head-color-yellow{
+    color: #947349;
+}
+
 .navbar-expand-lg .navbar-collapse{
     justify-content : flex-end
 }
 
 #home a:hover{
-    color:#F26221
+    color:white
+}
+
+.nav-item{
+    letter-spacing:0.7px ;
 }
 
 .about{
@@ -55,10 +63,9 @@
 }
 
 .whatWeExport{
-    margin-top: 60px;
     background-image: url('../assets/world-map.png');
     background-size: cover;
-    background-color: #133C65;
+    background-color: #072638;
     padding-bottom: 60px;
 }
 
@@ -75,12 +82,15 @@
 
 .whatWeDo{
     padding-bottom: 60px;
+    margin-top: 60px;
+    background-color: #F1C886;
 }
 
 .whatWeDo .head{
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
+    color: #072638 ;
 }
 
 .whatWeDo-cards-container{
@@ -124,7 +134,7 @@ footer svg{
 }
 
 .nav-item a:hover{
-    color: #F26221;
+    color: white;
 }
 
 @media only screen and (max-width: 600px) {
