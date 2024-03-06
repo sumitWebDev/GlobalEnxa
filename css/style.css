@@ -38,11 +38,6 @@
     font-weight: bold;
 }
 
-.logo-video-carousel{
-    background-color: black;
-    object-fit: none;
-}
-
 .about{
     display: flex;
     flex-wrap: wrap;
@@ -169,3 +164,8 @@ footer svg{
         object-fit: cover;
     }
   }
+
+  .carousel-item img.logo-video-gif{
+    background-color: black;
+    object-fit: contain;
+}
