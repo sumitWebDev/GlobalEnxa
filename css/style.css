@@ -2,7 +2,7 @@
 @import url("reset.css");
 
 .orange{
-    color:#EEC684;
+    color:#DEAE37;
 }
 
 .blue{
@@ -35,6 +35,12 @@
 
 .nav-item{
     letter-spacing:0.7px ;
+    font-weight: bold;
+}
+
+.logo-video-carousel{
+    background-color: black;
+    object-fit: none;
 }
 
 .about{
