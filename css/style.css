@@ -151,6 +151,11 @@ footer svg{
   }
 
 
+
+.carousel-item {
+    height: 680px;
+    }
+    
 .carousel-item img {
     position: absolute;
     top: 0;
