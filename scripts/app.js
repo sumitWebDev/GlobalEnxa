@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('#whyChooseUsContainer').slick({
+    $('#productsContainer').slick({
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 3,

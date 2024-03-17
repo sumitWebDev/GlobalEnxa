@@ -119,27 +119,31 @@
     margin: 10px;
 }
 
+/* Products */
+.products{
+    padding-bottom: 60px;
+}
 .products .head{
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
 }
+.products-cards img{
+    height: 350px;
+    width: 350px;
+}
+
+.products-cards .carousel-head{
+    text-align: center;
+    font-weight: bold;
+}
+
 
 /* Why choose us */
 
 .whyChooseUs{
     background-color: #76b4d2;
     padding-bottom: 60px;
-}
-
-.whyChooseUs .carousel-head{
-    text-align: center;
-    font-weight: bold;
-    color: white;
-}
-
-.whyChooseUs .carousel-desc{
-    color: white;
 }
 
 .whyChooseUs .head{
@@ -149,9 +153,13 @@
     color: white;
 }
 
-.whyChooseUs-cards img{
-    height: 350px;
-    width: 350px;
+.whyChooseUs .card-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.whyChooseUs .card-img-top{
+    height: 200px;
 }
 
 footer svg{
