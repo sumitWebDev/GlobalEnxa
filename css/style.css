@@ -162,6 +162,10 @@
     height: 200px;
 }
 
+.whyChooseUs .card-img-top.first-child{
+    padding: 30px;
+}
+
 footer svg{
     vertical-align: text-top;
 }
