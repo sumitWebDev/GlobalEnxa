@@ -83,7 +83,6 @@
 
 .whatWeDo{
     padding-bottom: 60px;
-    margin-top: 60px;
     background: radial-gradient(circle, rgba(214,163,76,1) 38%, rgba(219,186,53,1) 58%, rgba(227,214,32,1) 95%);
 }
 
@@ -126,6 +125,35 @@
     font-weight: bold;
 }
 
+/* Why choose us */
+
+.whyChooseUs{
+    background-color: #76b4d2;
+    padding-bottom: 60px;
+}
+
+.whyChooseUs .carousel-head{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.whyChooseUs .carousel-desc{
+    color: white;
+}
+
+.whyChooseUs .head{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.whyChooseUs-cards img{
+    height: 350px;
+    width: 350px;
+}
+
 footer svg{
     vertical-align: text-top;
 }
@@ -154,7 +182,7 @@ footer svg{
 
 .carousel-item {
     height: 680px;
-    }
+}
     
 .carousel-item img {
     position: absolute;
