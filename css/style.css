@@ -38,6 +38,7 @@
     font-weight: bold;
 }
 
+/* About */
 .about{
     display: flex;
     flex-wrap: wrap;
@@ -64,6 +65,7 @@
     width: 100%;
 }
 
+/* Our offering */
 .ourOfferings{
     background-image: url('../assets/world-map.png');
     background-size: cover;
@@ -94,6 +96,19 @@
     height: 202px;
 }
 
+.ourOfferings-cards{
+    flex-basis: 50%;
+    padding: 10px;
+}
+
+.ourOfferings-cards img{
+    width: 50px;
+    height:50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+/* What we do */
 .whatWeDo{
     padding-bottom: 60px;
     background: radial-gradient(circle, rgba(214,163,76,1) 38%, rgba(219,186,53,1) 58%, rgba(227,214,32,1) 95%);
@@ -153,18 +168,6 @@
     box-shadow: none;
 }
 
-.ourOfferings-cards{
-    flex-basis: 50%;
-    padding: 10px;
-}
-
-.ourOfferings-cards img{
-    width: 50px;
-    height:50px;
-    border-radius: 30px;
-    margin-right: 20px;
-}
-
 .whatWeExport-cards-container{
     display: flex;
     flex-wrap: wrap;
@@ -187,6 +190,7 @@
 .products-cards img{
     height: 350px;
     width: 350px;
+    object-fit: cover;
 }
 
 .products-cards .carousel-head{
