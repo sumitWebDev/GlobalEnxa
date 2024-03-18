@@ -109,6 +109,46 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.whatWeDo-cards-container .accordion{
+    width: 100%;
+}
+
+.whatWeDo-cards-container .accordion .card{
+    background-color: transparent;
+    border: none
+}
+
+.whatWeDo-cards-container .accordion .card .card-body{
+    padding-left: 0px;
+}
+
+.whatWeDo-cards-container .accordion .card-header{
+    background-color: transparent;
+    border-bottom:1px solid #5E5942 ;
+    padding-left: 0px;
+
+}
+
+.whatWeDo-cards-container .accordion .card-header h2{
+    margin-top: 0px;
+}
+
+.whatWeDo-cards-container .accordion .card-header button{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 0px;
+}
+
+.whatWeDo-cards-container .accordion .card-header img{
+    vertical-align: middle;
+    float: right;
+}
+
+.whatWeDo-cards-container .accordion .card-header .btn:focus{
+    box-shadow: none;
+}
+
 .ourOfferings-cards{
     flex-basis: 50%;
     padding: 10px;
