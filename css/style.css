@@ -43,6 +43,7 @@
     flex-wrap: wrap;
     align-items: center;
     margin-top:60px;
+    margin-bottom: 60px;
 }
 
 .about-desc{
@@ -121,6 +122,9 @@
 
 .whatWeDo-cards-container .accordion .card .card-body{
     padding-left: 0px;
+    font-size: 27px;
+    line-height: normal;
+    letter-spacing: 0.3px;
 }
 
 .whatWeDo-cards-container .accordion .card-header{
