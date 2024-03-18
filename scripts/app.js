@@ -4,5 +4,6 @@ $(document).ready(function(){
         slidesToShow: 3,
         autoplay: true,
         autoplaySpeed: 4000,
+        lazyLoad: 'ondemand',
     });
 });
