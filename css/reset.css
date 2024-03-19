@@ -23,14 +23,54 @@ time, mark, audio, video {
 
 @font-face {
   font-family: 'Regular';
-  src: url('../assets/fonts/Prata-Regular.woff2') format('woff2');
+  src: url('../assets/fonts/Lato-Regular.woff2') format('woff2');
  }
 
  @font-face {
   font-family: 'Bold';
-  font-weight: 700;
-  src: url('../assets/fonts/Prata-Regular.woff2') format('woff2');
+  src: url('../assets/fonts/Lato-Bold.woff2') format('woff2');
  }
+
+ @font-face {
+  font-family: 'Roboto-Regular';
+  src: url('../assets/fonts/Roboto-Regular.woff2') format('woff2');
+ }
+
+ @font-face {
+  font-family: 'Roboto-Bold';
+  src: url('../assets/fonts/Roboto-Bold.woff2') format('woff2');
+ }
+
+ @font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../assets/fonts/Montserrat-Regular.woff2') format('woff2');
+ }
+
+ @font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../assets/fonts/Montserrat-Bold.woff2') format('woff2');
+ }
+
+ @font-face {
+  font-family: 'Alegreya-Regular';
+  src: url('../assets/fonts/Alegreya-Regular.woff2') format('woff2');
+ }
+
+ @font-face {
+  font-family: 'Alegreya-Bold';
+  src: url('../assets/fonts/Alegreya-Bold.woff2') format('woff2');
+ }
+
+ @font-face {
+  font-family: 'Poppins-Regular';
+  src: url('../assets/fonts/Poppins-Regular.woff') format('woff2');
+ }
+
+ @font-face {
+  font-family: 'Poppins-Bold';
+  src: url('../assets/fonts/Poppins-Bold.woff') format('woff2');
+ }
+
 
  @font-face {
   font-family: 'GlobalEnxa';

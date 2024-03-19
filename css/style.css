@@ -40,7 +40,7 @@
 
 .navbar-brand{
     font-family: 'GlobalEnxa';
-    font-size: 24px;
+    font-size: 27px;
 }
 
 /* About */
@@ -55,11 +55,16 @@
 .about-desc{
     flex-basis: 50%;
     padding: 20px;
+    
+}
+
+.about-desc p{
+    font-family: 'Montserrat-Regular';
 }
 
 .about-desc h1{
     text-align: center;
-    font-family: 'Bold';
+    font-family: 'Montserrat-Bold';
 }
 
 .about-img{
@@ -82,11 +87,11 @@
 .ourOfferings .head{
     text-align: center;
     font-size: 2rem;
-    font-family: 'Bold';
+    font-family: 'Roboto-Bold';
 }
 
 .ourOfferings .ourOfferings-cards .head{
-    font-family: 'Bold';
+    font-family: 'Roboto-Bold';
     font-size: 16px;
     text-align: left;
     color: white;
@@ -95,7 +100,13 @@
 
 .ourOfferings .desc{
     color: white;
+    font-family: 'Roboto-Regular';
 
+}
+
+.ourOfferings-card-container{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .ourOfferings .card-img-top{
@@ -127,50 +138,51 @@
     color: #072638 ;
 }
 
-.whatWeDo-cards-container{
+.whatWeDo-accordion{
     display: flex;
     flex-wrap: wrap;
 }
 
-.whatWeDo-cards-container .accordion{
+.whatWeDo-accordion{
     width: 100%;
 }
 
-.whatWeDo-cards-container .accordion .card{
+.whatWeDo-accordion .card{
     background-color: transparent;
-    border: none
+    border: none;
+    width: 100%;
 }
 
-.whatWeDo-cards-container .accordion .card .card-body{
+.whatWeDo-accordion .card .card-body{
     padding-left: 0px;
-    font-size: 24px;
     line-height: normal;
     letter-spacing: 0.3px;
+    color: white;
 }
 
-.whatWeDo-cards-container .accordion .card-header{
+.whatWeDo-accordion .card-header{
     background-color: transparent;
-    border-bottom:1px solid #5E5942 ;
+    border-bottom:1px solid white ;
     padding-left: 0px;
 
 }
 
-.whatWeDo-cards-container .accordion .card-header h2{
+.whatWeDo-accordion .card-header h2{
     margin-top: 0px;
 }
 
-.whatWeDo-cards-container .accordion .card-header button{
-    font-size: 25px;
+.whatWeDo-accordion .card-header button{
     font-family: 'Bold';
     padding-left: 0px;
+    color: white;
 }
 
-.whatWeDo-cards-container .accordion .card-header img{
+.whatWeDo-accordion .card-header img{
     vertical-align: middle;
     float: right;
 }
 
-.whatWeDo-cards-container .accordion .card-header .btn:focus{
+.whatWeDo-accordion .card-header .btn:focus{
     box-shadow: none;
 }
 
@@ -191,7 +203,7 @@
 .products .head{
     text-align: center;
     font-size: 2rem;
-    font-family: 'Bold';
+    font-family: 'Alegreya-Bold';
 }
 .products-cards img{
     height: 350px;
@@ -201,27 +213,36 @@
 
 .products-cards .carousel-head{
     text-align: center;
-    font-family: 'Bold';
+    font-family: 'Alegreya-Bold';
 }
+
+.products-cards .carousel-desc{
+    font-family: 'Alegreya-Regular';
+}
+
 
 
 /* Why choose us */
 
 .whyChooseUs{
-    background-color: #76b4d2;
+    background-color: #055967;
     padding-bottom: 60px;
 }
 
 .whyChooseUs .head{
     text-align: center;
     font-size: 2rem;
-    font-family: 'Bold';
+    font-family: 'Poppins-Bold';
     color: white;
 }
 
 .whyChooseUs .card-title{
     text-align: center;
-    font-family: 'Bold';
+    font-family: 'Poppins-Bold';
+}
+
+.whyChooseUs .card-text{
+    font-family: 'Poppins-Regular';
 }
 
 .whyChooseUs .card-img-top{
