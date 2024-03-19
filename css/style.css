@@ -35,7 +35,7 @@
 
 .nav-item{
     letter-spacing:0.7px ;
-    font-weight: bold;
+    font-family: 'Montserrat-Medium';
 }
 
 .navbar-brand{
@@ -59,7 +59,7 @@
 }
 
 .about-desc p{
-    font-family: 'Montserrat-Regular';
+    font-family: 'Montserrat-Medium';
 }
 
 .about-desc h1{
@@ -93,21 +93,23 @@
 .ourOfferings .head{
     text-align: center;
     font-size: 2rem;
-    font-family: 'Roboto-Bold';
+    font-family: 'Alegreya-Bold';
+    letter-spacing: 1px;
 }
 
 .ourOfferings .ourOfferings-cards .head{
-    font-family: 'Roboto-Bold';
-    font-size: 15px;
+    font-family: 'Alegreya-Medium';
+    font-size: 16px;
     text-align: left;
     color: white;
+    letter-spacing: 0px;
 
 }
 
 .ourOfferings .desc{
     color: white;
-    font-family: 'Roboto-Regular';
-    font-size: 13px;
+    font-family: 'Alegreya-Regular';
+    font-size: 15px;
 
 }
 
@@ -161,8 +163,8 @@
 .whatWeDo-accordion .card .card-body{
     padding-left: 0px;
     line-height: normal;
-    letter-spacing: 0.3px;
     color: white;
+    font-family:'Montserrat-Medium'
 }
 
 .whatWeDo-accordion .card-header{
@@ -177,7 +179,7 @@
 }
 
 .whatWeDo-accordion .card-header button{
-    font-family: 'Bold';
+    font-family: 'Montserrat-Bold';
     padding-left: 0px;
     color: white;
 }
@@ -237,17 +239,17 @@
 .whyChooseUs .head{
     text-align: center;
     font-size: 2rem;
-    font-family: 'Poppins-Bold';
+    font-family: 'Montserrat-Bold';
     color: white;
 }
 
 .whyChooseUs .card-title{
     text-align: center;
-    font-family: 'Poppins-Bold';
+    font-family: 'Montserrat-Bold';
 }
 
 .whyChooseUs .card-text{
-    font-family: 'Poppins-Regular';
+    font-family: 'Montserrat-Regular';
 }
 
 .whyChooseUs .card-img-top{
@@ -258,8 +260,14 @@
     padding: 30px;
 }
 
-footer svg{
-    vertical-align: text-top;
+/* Footer */
+
+.footer-head{
+    font-family: 'Montserrat-Bold';
+}
+
+footer .nav-link{
+    font-family: 'Montserrat-Regular';
 }
 
 .footer-company:hover{
