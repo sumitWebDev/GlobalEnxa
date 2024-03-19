@@ -38,6 +38,10 @@
     font-weight: bold;
 }
 
+.navbar-brand{
+    font-family: 'Bold';
+}
+
 /* About */
 .about{
     display: flex;
@@ -54,6 +58,7 @@
 
 .about-desc h1{
     text-align: center;
+    font-family: 'Bold';
 }
 
 .about-img{
@@ -76,11 +81,11 @@
 .ourOfferings .head{
     text-align: center;
     font-size: 2rem;
-    font-weight: bold;
+    font-family: 'Bold';
 }
 
 .ourOfferings .ourOfferings-cards .head{
-    font-weight: bold;
+    font-family: 'Bold';
     font-size: 16px;
     text-align: left;
     color: white;
@@ -117,7 +122,7 @@
 .whatWeDo .head{
     text-align: center;
     font-size: 2rem;
-    font-weight: bold;
+    font-family: 'Bold';
     color: #072638 ;
 }
 
@@ -155,7 +160,7 @@
 
 .whatWeDo-cards-container .accordion .card-header button{
     font-size: 25px;
-    font-weight: bold;
+    font-family: 'Bold';
     padding-left: 0px;
 }
 
@@ -185,7 +190,7 @@
 .products .head{
     text-align: center;
     font-size: 2rem;
-    font-weight: bold;
+    font-family: 'Bold';
 }
 .products-cards img{
     height: 350px;
@@ -195,7 +200,7 @@
 
 .products-cards .carousel-head{
     text-align: center;
-    font-weight: bold;
+    font-family: 'Bold';
 }
 
 
@@ -209,13 +214,13 @@
 .whyChooseUs .head{
     text-align: center;
     font-size: 2rem;
-    font-weight: bold;
+    font-family: 'Bold';
     color: white;
 }
 
 .whyChooseUs .card-title{
     text-align: center;
-    font-weight: bold;
+    font-family: 'Bold';
 }
 
 .whyChooseUs .card-img-top{
