@@ -39,8 +39,11 @@
 }
 
 .navbar-brand{
-    font-family: 'GlobalEnxa';
+    font-family: 'Alegreya-Bold';
     font-size: 27px;
+    text-wrap: wrap;
+    line-height: normal;
+    margin-left: 12px;
 }
 
 /* About */
@@ -64,7 +67,7 @@
 
 .about-desc h1{
     text-align: center;
-    font-family: 'Montserrat-Bold';
+    font-family: 'Alegreya-Bold';
 }
 
 .about-img{
@@ -98,7 +101,7 @@
 }
 
 .ourOfferings .ourOfferings-cards .head{
-    font-family: 'Alegreya-Medium';
+    font-family: 'Montserrat-Bold';
     font-size: 16px;
     text-align: left;
     color: white;
@@ -108,7 +111,8 @@
 
 .ourOfferings .desc{
     color: white;
-    font-family: 'Alegreya-Regular';
+    font-family: 'Montserrat-Medium';
+    line-height: 1.5;
     font-size: 15px;
 
 }
@@ -117,7 +121,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-basis: 50%;
-    border-right: 2px solid yellow;
+    border-right: 2px solid #DEAE37;
 }
 
 .ourOfferings .card-img-top{
@@ -164,7 +168,9 @@
     padding-left: 0px;
     line-height: normal;
     color: white;
-    font-family:'Montserrat-Medium'
+    font-family:'Montserrat-Medium';
+    line-height: 1.5;
+    font-size: 15px;
 }
 
 .whatWeDo-accordion .card-header{
@@ -193,16 +199,6 @@
     box-shadow: none;
 }
 
-.whatWeExport-cards-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
-.whatWeExport-cards-container .card {
-    flex-basis: 30%;
-    margin: 10px;
-}
-
 /* Products */
 .products{
     padding-bottom: 60px;
@@ -213,8 +209,6 @@
     font-family: 'Alegreya-Bold';
 }
 .products-cards img{
-    height: 350px;
-    width: 350px;
     aspect-ratio: 16 / 9;
 }
 
@@ -232,24 +226,27 @@
 /* Why choose us */
 
 .whyChooseUs{
-    background-color: #055967;
+    background-color: #d1ad74;
     padding-bottom: 60px;
 }
 
 .whyChooseUs .head{
     text-align: center;
     font-size: 2rem;
-    font-family: 'Montserrat-Bold';
+    font-family: 'Alegreya-Bold';
     color: white;
 }
 
 .whyChooseUs .card-title{
     text-align: center;
     font-family: 'Montserrat-Bold';
+    font-size: 15px;
 }
 
 .whyChooseUs .card-text{
     font-family: 'Montserrat-Regular';
+    font-size: 13px;
+    line-height: 1.5;
 }
 
 .whyChooseUs .card-img-top{
@@ -260,6 +257,22 @@
     padding: 30px;
 }
 
+.whyChooseUs-cards-container .card {
+    flex-basis: 18%;
+    margin: 10px;
+    border: none;
+}
+
+.whyChooseUs-cards-container .card .card-body{
+    padding: 10px;
+}
+
+.whyChooseUs-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
 /* Footer */
 
 .footer-head{
@@ -268,6 +281,7 @@
 
 footer .nav-link{
     font-family: 'Montserrat-Regular';
+    line-height: 1.8;
 }
 
 .footer-company:hover{
@@ -277,20 +291,6 @@ footer .nav-link{
 .nav-item a:hover{
     color: white;
 }
-
-@media only screen and (max-width: 600px) {
-    .about-desc {
-      flex-basis: unset;
-    }
-    .about-img {
-        flex-basis: unset;
-      }
-      .whatWeExport-cards-container .card{
-        flex-basis: unset;
-      }
-  }
-
-
 
 .carousel-item {
     height: 680px;
@@ -309,3 +309,36 @@ footer .nav-link{
     background-color: black;
     object-fit: contain;
 }
+
+
+/* Mobile CSS */
+@media only screen and (max-width: 600px) {
+    .about-desc {
+      flex-basis: unset;
+    }
+    .about-img {
+        flex-basis: unset;
+      }
+      .whatWeExport-cards-container .card{
+        flex-basis: unset;
+      }
+      .products-cards img{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+/*Ipad CSS */
+@media all and (min-width: 768px) and (max-height: 1024px) and (orientation:portrait) {
+    .products-cards img{
+        height: 100%;
+        width: 100%;
+    }
+  }
+  @media all and (min-width: 1024px) and (max-height: 768px) and (orientation:landscape) {
+     /* your css rules for ipad landscape */
+     .products-cards img{
+        height: 100%;
+        width: 100%;
+    }
+  }
