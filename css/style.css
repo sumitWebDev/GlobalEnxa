@@ -190,7 +190,7 @@
 .products-cards img{
     height: 350px;
     width: 350px;
-    object-fit: cover;
+    aspect-ratio: 16 / 9;
 }
 
 .products-cards .carousel-head{
