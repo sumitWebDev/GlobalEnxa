@@ -23,12 +23,18 @@ time, mark, audio, video {
 
 @font-face {
   font-family: 'Regular';
-  src: url('../assets/fonts/Lato-Regular.woff2') format('woff2');
+  src: url('../assets/fonts/Prata-Regular.woff2') format('woff2');
  }
 
  @font-face {
   font-family: 'Bold';
-  src: url('../assets/fonts/Lato-Bold.woff2') format('woff2');
+  font-weight: 700;
+  src: url('../assets/fonts/Prata-Regular.woff2') format('woff2');
+ }
+
+ @font-face {
+  font-family: 'GlobalEnxa';
+  src: url('../assets/fonts/MarckScript-Regular.woff2') format('woff2');
  }
 
 
