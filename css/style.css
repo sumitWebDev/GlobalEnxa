@@ -133,8 +133,8 @@
 }
 
 .ourOfferings-cards img{
-    width: 40px;
-    height:40px;
+    width: 43px;
+    height: 41px;
     border-radius: 20px;
     margin-right: 15px;
     vertical-align: middle;
@@ -226,15 +226,16 @@
 /* Why choose us */
 
 .whyChooseUs{
-    background-color: #d1ad74;
+    background-color: #072638;
     padding-bottom: 60px;
+    background-image: url(../assets/world-map.png);
 }
 
 .whyChooseUs .head{
     text-align: center;
     font-size: 2rem;
     font-family: 'Alegreya-Bold';
-    color: white;
+    color: #DEAE37;
 }
 
 .whyChooseUs .card-title{
@@ -282,6 +283,7 @@
 footer .nav-link{
     font-family: 'Montserrat-Regular';
     line-height: 1.8;
+    color: white;
 }
 
 .footer-company:hover{
