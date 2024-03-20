@@ -33,9 +33,14 @@
     color:white
 }
 
-.nav-item{
+#navbarNavAltMarkup .navbar-nav .nav-item{
     letter-spacing:0.7px ;
     font-family: 'Montserrat-Medium';
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    position: relative;
+    padding-right:0px;
+    padding-left: 0px;
 }
 
 .navbar-brand{
@@ -44,6 +49,27 @@
     text-wrap: wrap;
     line-height: normal;
     margin-left: 41px;
+}
+
+.nav-link-ltr:hover::before {
+    width: 100%;
+}
+
+.nav-link-ltr::before {
+    width: 0%;
+    bottom: -3px;
+}
+
+.nav-link:hover{
+    opacity: 1;
+}
+
+.nav-link::before    {
+    transition: 300ms;
+    height: 4px;
+    content: "";
+    position: absolute;
+    background-color: #DEAE37;
 }
 
 /* About */
