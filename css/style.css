@@ -318,7 +318,7 @@
 .formbold-stroke-current {
   stroke: currentColor;
 }
-#pinkLedCheckbox:checked ~ div span,#blackLedCheckbox:checked ~ div span, #riderBackpacks:checked ~ div span  {
+#pinkLedCheckbox:checked ~ div span,#blackLedCheckbox:checked ~ div span, #riderBackpacks:checked ~ div span, #holographicAdvertiser:checked ~ div span  {
   opacity: 1;
 }
 
